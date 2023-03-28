@@ -87,8 +87,9 @@ header img {
 .badge {
   margin-right: 7px;
   background-color: #4698a1;
+  border-radius: 5px;
   color: white;
-  padding: 1px 4px;
+  padding: 2px 4px;
 }
 
 .Line {
@@ -187,4 +188,28 @@ tr:nth-child(even) {
   text-align: center;
   border-radius: 10px;
   padding: 5px;
+}
+
+nav a {
+  position: relative;
+  color: #1c84ff;
+}
+
+nav a:hover {
+  color: #4698a1;
+}
+
+.active {
+  color: #4698a1;
+}
+
+nav a:hover::after,
+nav a.active::after {
+  content: '';
+  width: 60%;
+  height: 2px;
+  background-color: #4698a1;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
