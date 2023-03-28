@@ -17,7 +17,7 @@ a web application for a company that provides commercial and scientific space tr
 
 ## Live Demo
 
-[Live site](https://benevolent-figolla-1ff9d5.netlify.app)
+[Live site](https://space-travelerss.netlify.app)
 
 
 ## Getting Started
