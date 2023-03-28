@@ -19,7 +19,7 @@ const Missions = () => {
   return (
     <table>
       <tbody>
-        <tr className='th'>
+        <tr className="th">
           <th>Mission</th>
           <th>Description</th>
           <th>Statue</th>
@@ -48,17 +48,17 @@ const Missions = () => {
             >
               {mission.active ? (
                 <button
-                  className='cancelBtn'
+                  className="cancelBtn"
                   onClick={() => buttonHandler(mission.mission_id)}
-                  type='button'
+                  type="button"
                 >
                   Leave Mission
                 </button>
               ) : (
                 <button
-                  className='joinBtn'
+                  className="joinBtn"
                   onClick={() => buttonHandler(mission.mission_id)}
-                  type='button'
+                  type="button"
                 >
                   Join Mission
                 </button>

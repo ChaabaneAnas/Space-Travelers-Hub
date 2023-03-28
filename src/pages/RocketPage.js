@@ -12,7 +12,7 @@ const Rockets = () => {
   }, []);
 
   return (
-    <div className='mb-5 mt-5 '>
+    <div className="mb-5 mt-5 ">
       {rockets.length ? (
         rockets.map((rocket) => <Rocket key={rocket.id} rocket={rocket} />)
       ) : (
